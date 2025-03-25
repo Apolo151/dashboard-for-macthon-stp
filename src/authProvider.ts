@@ -4,7 +4,7 @@ const API_URL = import.meta.env.VITE_BASE_URL;
 
 export const authProvider: AuthProvider = {
   login: async ({ username: userName, password }) => {
-    const request = new Request(`${API_URL}/login`, {
+    const request = new Request(`${API_URL}/admin/login`, {
       method: "POST",
       body: JSON.stringify({ userName, password }),
       headers: new Headers({ "Content-Type": "application/json" }),
