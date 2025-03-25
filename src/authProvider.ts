@@ -1,6 +1,6 @@
 import { AuthProvider } from "react-admin";
 
-const API_URL = "http://localhost:3000/api/admin";
+const API_URL = import.meta.env.VITE_BASE_URL;
 
 export const authProvider: AuthProvider = {
   login: async ({ username: userName, password }) => {
