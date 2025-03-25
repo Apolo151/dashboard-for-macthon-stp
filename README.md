@@ -1,5 +1,5 @@
 # dashboard
-
+-----
 ## Installation
 
 Install the application dependencies by running:
