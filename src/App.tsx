@@ -16,7 +16,7 @@ export const App = () => (
     dataProvider={AttendeeDataProvider}
   >
     <Resource
-      name="Attendee"
+      name="attendence"
       list={AttendeeList}
       show={AttendeeShow}
       edit={AttendeeEdit}
